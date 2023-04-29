@@ -7,6 +7,4 @@ router
   .post(uploadsController.uploadProductImage, productController.createProduct)
   .get(productController.getAllProducts);
 
-// router.route("/uploads").post(uploadsController.uploadProductImage);
-
 module.exports = router;
